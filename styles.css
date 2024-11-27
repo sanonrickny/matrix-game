@@ -151,7 +151,8 @@ p a {
     cursor: pointer;
     position: relative;
     height: 125px;
-    background-color: #fff;    
+    background-color: #fff;   
+    transition: transform 0.1s; 
     font-size: 24px;
 }
 

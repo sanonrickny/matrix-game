@@ -24,10 +24,9 @@ function flipCard() {
         firstCard = this;
     } else {
         secondCard = this;
-
-    
+        checkForMatch();
     }
-    checkForMatch();
+    
 
 }
 function shuffle() {
